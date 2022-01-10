@@ -19,7 +19,11 @@ public class List {
 
         names.remove(String.valueOf("Josh"));
         
-        System.out.println(names);
+        
+        // CLEAR:
+        //Removes all elements from the list
+        names.clear();
+       
 
     }
 }
