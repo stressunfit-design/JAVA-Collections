@@ -15,6 +15,16 @@ public class List {
         //  names.add(index, value);         
 
         names.add(1, "Lucas");
+        
+       // Add method (3) :
+       // Appending/Adding one list to another
+        
+        ArrayList<String> names2 = new ArrayList<>();
+        
+        names2.add("Doe");
+        names2.add("Ethan");
+        
+        names.addAll(names2);
 
         System.out.println(names);
 
